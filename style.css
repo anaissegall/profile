@@ -1,0 +1,82 @@
+body {
+  font-family: Space Grotesk;
+  font-size: 14px;
+  background-color: FFF2F2;
+  color: C85C8E;
+  padding: 100px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: Space mono;
+  color: rgb(84, 4, 68);
+}
+
+p {
+  font-family: Space mono;
+  color: rgb(143, 76, 130);
+}
+
+li {
+  display: inline;
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(84, 4, 68);
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+a:hover {
+color: rgb(200, 63, 138);
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.card {
+  background-color: white;
+  padding: 50px;
+  width: 600px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
